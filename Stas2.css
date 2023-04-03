@@ -26,6 +26,16 @@ h1, h5 {
 }
 
 
+#sd {
+  position: absolute;
+  color: black;
+  text-align: center;
+   font-size: 40px;
+   left: 300px;
+   top: 2713px;
+
+}
+
 h2 {
 
 
@@ -45,7 +55,7 @@ h3 {
 
 p {
 color: grey;
-font-size: 30px;
+font-size: 20px;
  font-weight: 700;
 
 
@@ -85,7 +95,7 @@ header {
         height: 460px;
           left: 310px;
             text-align: left;
-              margin-top: 700px;
+              margin-top: 400px;
                 border-radius: 5px;
                   outline: 1px solid #dbd0d0;
                 }
@@ -101,29 +111,33 @@ header {
                   margin-left:  300px;
                     height: 100px;
                       border-radius: 5px;
-                      margin: 1160px 300px;
+                      margin: 860px 300px;
                         }
 
 .Stasik2 {
-    margin-top: 100px;
-      display: block;
+
+
         width: 1250px;
           height: 400px;
             text-align: left;
               position: relative ;
                 outline: 1px solid #dbd0d0;
                 border-radius: 5px;
+                top: -930px;
+                left: 300px;
+
+
                 }
 
 
 .th {
 
     background-color: #ffffff;
-      margin-top: -50px;
+    top: -925px;
         text-align: left;
           color: #000000;
             outline: 1px solid #dbd0d0;
-              width: 850px;
+              width: 1250px;
                 left: 300px;
                   height: 100px;
                     position: relative;
@@ -147,13 +161,16 @@ form.example input[type=text] {
 
 
 .submit{
-
+position: absolute;
     width: 169px;
-      height: 65px;
+      height: 60px;
         border-color: white;
           background: green;
             color: white;
-              border-radius: 10px/6px;
+              border-radius: 10px/10px;
+              top: 540px;
+              right: 280px;
+              font-size: 20px;
               }
 
 
@@ -366,7 +383,7 @@ table {
       #fff url(stas1.jpg) repeat-y 100% 0;
         position: absolute;
             outline: 1px solid #dbd0d0;
-              top:  940px;
+              top: 1100px;
                 color: #ffffff;
                   margin: 20px;
                     padding: 20px;
@@ -382,7 +399,7 @@ table {
 display: block;
     background-color: #ffffff;
     position: absolute;
-        top:   940px;
+        top:   1100px;
           color: #000000;
             outline: 1px solid #dbd0d0;
               margin: 20px;
@@ -400,7 +417,7 @@ display: block;
 display: block;
     background-color: #ffffff;
     position: absolute;
-        top:   960px;
+        top:   1120px;
           text-align: left;
             color: #000000;
               outline: 1px solid #dbd0d0;
@@ -417,7 +434,7 @@ display: block;
   display: block;
     background-color: #ffffff;
     position: absolute;
-        top: 960px;
+        top: 1120px;
           text-align: left;
             color: #000000;
               outline: 1px solid #dbd0d0;
@@ -431,7 +448,7 @@ display: block;
 
 
 .city5 {
-  display: block;
+
     background-color: #ffffff;
       text-align: right;
         color: #000000;
@@ -446,8 +463,26 @@ display: block;
 
 
 .brd {
-  display: block;
+position: absolute;
     border: 1px solid #dbd0d0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: grey;
+    line-height: 1.3;
+    padding: 0.6em 1.3em 0.5em 0.8em;
+top: 2760px;
+    box-sizing: border-box;
+    border: 3px;
+    box-shadow: 0 1px 0 1px rgb(0 0 0 / 4%);
+    border-radius: 0.5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-repeat: no-repeat, repeat;
+    background-position: right 0.2em top 100%, 0 0;
+    background-size: 0.65em auto, 100%;
       background: #ffffff;
         height: 200px;
           width: 600px;
@@ -455,13 +490,31 @@ display: block;
               border-radius: 10px/6px;
                 left: 300px;
                   text-align: left;
-                    margin-top: 1500ppx;
+
                     }
 
 
 .brd2 {
-  display: block;
-    border: 1px solid #dbd0d0;
+  font-size: 16px;
+font-family: sans-serif;
+font-weight: 200;
+color: grey;
+line-height: 1.3;
+padding: 0.6em 1.3em 0.5em 0.8em;
+
+box-sizing: border-box;
+border: 3px;
+box-shadow: 0 1px 0 1px rgb(0 0 0 / 4%);
+border-radius: 0.5em;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-color: #fff;
+background-repeat: no-repeat, repeat;
+background-position: right 0.2em top 100%, 0 0;
+background-size: 0.65em auto, 100%;
+position: absolute;
+
       background: #ffffff;
         height: 260px;
           width: 600px;
@@ -469,52 +522,107 @@ display: block;
                 border-radius: 10px/6px;
                   left: 300px;
                     text-align: left;
+                    top: 3000px;
                     }
 
 
 .brd3 {
-  display: block;
-    border: 1px solid #dbd0d0;
+  font-size: 16px;
+font-family: sans-serif;
+font-weight: 200;
+color: grey;
+line-height: 1.3;
+padding: 0.6em 1.3em 0.5em 0.8em;
+
+box-sizing: border-box;
+border: 3px;
+box-shadow: 0 1px 0 1px rgb(0 0 0 / 4%);
+border-radius: 0.5em;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-color: #fff;
+background-repeat: no-repeat, repeat;
+background-position: right 0.2em top 100%, 0 0;
+background-size: 0.65em auto, 100%;
+position: absolute;
+
       background: #ffffff;
         height: 150px;
-          width: 500px;
-            margin-top: 1500px;
+          width: 600px;
+            margin-top: -790px;
               border-radius: 10px/6px;
-                position: absolute;
-                  right: 500px;
+                  right: 350px;
                     text-align: left;
                   }
 
 
 .brd4 {
-  display: block;
-      border: 1px solid #dbd0d0;
+  font-size: 16px;
+font-family: sans-serif;
+font-weight: 200;
+color: grey;
+line-height: 1.3;
+padding: 0.6em 1.3em 0.5em 0.8em;
+
+box-sizing: border-box;
+border: 3px;
+box-shadow: 0 1px 0 1px rgb(0 0 0 / 4%);
+border-radius: 0.5em;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-color: #fff;
+background-repeat: no-repeat, repeat;
+background-position: right 0.2em top 100%, 0 0;
+background-size: 0.65em auto, 100%;
+position: absolute;
+
         background: #ffffff;
           height: 130px;
             width: 600px;
               right: 300px;
                 margin-top: 1500ppx;
-                  right: -1100px;
+                  right: 350px;
                     border-radius: 10px/6px;
                         text-align: left;
+                        top:2970px;
                       }
 
 
 .brd5   {
-  display: block;
-      border: 1px solid #dbd0d0;
+  font-size: 16px;
+font-family: sans-serif;
+font-weight: 200;
+color: grey;
+line-height: 1.3;
+padding: 0.6em 1.3em 0.5em 0.8em;
+
+box-sizing: border-box;
+border: 3px;
+box-shadow: 0 1px 0 1px rgb(0 0 0 / 4%);
+border-radius: 0.5em;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-color: #fff;
+background-repeat: no-repeat, repeat;
+background-position: right 0.2em top 100%, 0 0;
+background-size: 0.65em auto, 100%;
+position: absolute;
+
         background: #ffffff;
           height: 130px;
             width: 600px;
-              margin-top: 1500px;
+              top: 3120px;
                   border-radius: 10px/6px;
-                      right:900px;
+                      right:350px;
                           text-align: left;
                         }
 
 
 .brd6 {
-  display: block;
+position: absolute;
     background: #ffffff;
       border-radius: 10px;
         color: #a8a5a5;
@@ -524,7 +632,7 @@ display: block;
                 height: 100px;
                   border-radius: 10px/6px;
                     width: 2000px;
-                      top: 2200px;
+                      margin-top: -300px;
                       }
 
 
@@ -537,7 +645,7 @@ footer {
             text-align: center;
               height: 40px;
                 width: 2000px;
-                  margin-top: 2500px;
+                  margin-top: -150px;
                       left: 10px;
                     }
 
@@ -551,12 +659,13 @@ footer {
               color: green;
                 font-size: 20px;
                   border-radius: 10px/6px;
-                    margin-top: 500px;
+                    top: 3450px;
                       margin-left:-1010px;
                     }
 
 
 .ZNZN2 {
+  position: absolute;
     width: 100px;
       height: 65px;
         border-color: white;
@@ -564,11 +673,14 @@ footer {
             border-radius: 10px/6px;
               color: green;
                 font-size: 20px;
-                  margin-top: 500px;
+                top: 3450px;
+                left: 300px;
+                border: none;
                 }
 
 
 .ZNZN3 {
+  position: absolute;
     width: 100px;
       height: 65px;
         border-color: white;
@@ -576,7 +688,9 @@ footer {
             background: #ffffff;
               color: green;
                 font-size: 20px;
-                  margin-top: 500px;
+                top: 3450px;
+                right: 350px;
+                border: none;
                 }
 
 
@@ -596,7 +710,7 @@ footer {
 
 
 .select-css {
-margin:80px;
+margin:90px;
       font-size: 16px;
         font-family: sans-serif;
           font-weight: 200;
@@ -618,20 +732,46 @@ margin:80px;
 
 
 .predmety {
-    color: rgb(22, 22, 22);
+    color: grey;
       padding: 14px 20px;
         width: 100px;
           position: absolute;
-
+          top: 20px;
+          right: 310px;
+          border: none;
+background: white;
+font-size: 18px;
 
 }
 
 .sozdat {
   position: absolute;
-  color: rgb(22, 22, 22);
+  color: grey;
     padding: 14px 20px;
       width: 100px;
+      right: 200px;
+      top: 20px;
+      border: none;
+      background: white;
+      font-size: 18px;
 }
+
+.vhod {
+  position: absolute;
+  color: #29a927;
+  padding: 14px 20px;
+  width: 150px;
+  border-radius: 10px/10px;
+  right: 0px;
+  top: -490px;
+  border-color: green;
+  background: white;
+  font-size: 17px;
+  height: 50px;
+
+
+}
+
 
 
 .Stasik3 {
