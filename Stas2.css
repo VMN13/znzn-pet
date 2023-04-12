@@ -84,13 +84,16 @@ font-size: 20px;
 header {
   display: block;
   width: 1900px;
-  height: 170px;
+  height: 30px;
   margin: 10px;
   padding: 20px;
   margin-top: 10px;
   text-align: center;
-  outline: 1px solid #dbd0d0;
+outline: 2px ridge rgba(51,185,159,1);
+
       }
+
+
 
 .f {
   display: block;
@@ -118,6 +121,10 @@ header {
   border-radius: 5px;
   outline: 1px solid #dbd0d0;
                 }
+
+
+
+
 
 .e {
   position: relative;
@@ -683,6 +690,21 @@ footer {
   font-style: oblique;
       }
 
+.ZNZN4 {
+  position: absolute;
+  width: 100px;
+  height: 65px;
+  border-color: white;
+  border-radius: 10px/6px;
+  background: #ffffff;
+  color: green;
+  font-size: 20px;
+  top: 10px;
+  left: 20px;
+  border: none;
+  font-style: oblique;
+}
+
 .clock {
   margin-right: 800px;
 }
@@ -799,5 +821,6 @@ position: relative;
 {
   display: block;
   position: absolute;
-  left: 1200px;
+  left: 1100px;
+top: 240px;
 }
