@@ -28,6 +28,17 @@ h1, h5 {
    position: absolute;
     left: 850px;
     top: 350px;
+    font-weight: 600;
+}
+
+
+#search
+{
+display: block;
+position: absolute;
+top: 615px;
+left: 270px;
+z-index: 1;
 }
 
 #Stasikvopros
@@ -40,6 +51,14 @@ h1, h5 {
 top: 400px;
 }
 
+#AlarmClockIcon-mask-14 {
+  display: block;
+  position: absolute;
+  top: 320px;
+  right: 630px;
+  z-index: 1;
+}
+
 
 #sd {
   position: absolute;
@@ -48,6 +67,22 @@ top: 400px;
    font-size: 40px;
    left: 300px;
    top: 2713px;
+}
+
+#de {
+  display: block;
+  position: absolute;
+  top: 320px;
+  right: 630px;
+  z-index: 1;
+}
+
+#s {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 330px;
+  z-index: 1;
 }
 
 #title {
@@ -60,6 +95,11 @@ top: 400px;
     left: 500px;
     top: 250px;
     font-weight: 600;
+}
+
+#atmo {
+    top: 0px;
+    position: absolute;
 }
 
 h2 {
@@ -191,6 +231,8 @@ form.example input[type=text] {
 
 
 
+
+
 .submit{
   position: absolute;
   width: 169px;
@@ -248,17 +290,19 @@ form.example:after {
   right: 300px;
   text-align: center;
   position: static;
+
             }
 
 .dogd {
   border-color: grey;
   color: grey;
   cursor: pointer;
-  width: 80px;
   border-radius: 10px/6px;
   right: 300px;
+    width: 120px;
   text-align: center;
   position: static;
+
         }
 
 .les {
@@ -266,7 +310,7 @@ form.example:after {
   color: grey;
   margin: 8px 0;
   cursor: pointer;
-  width: 80px;
+  width: 120px;
   border-radius: 10px/6px;
   right: 300px;
   position: static;
@@ -285,16 +329,20 @@ form.example:after {
 
 .podbrosit {
   border-color: grey;
-  color: green;
-  padding: 14px 20px;
-  margin: 8px 0;
-  cursor: pointer;
-  width: 100px;
-  border-radius: 10px/6px;
-  right: 300px;
-  position: static;
-  width: 250px;
-  border-color: green;
+color: green;
+padding: 14px 20px;
+margin: 8px 0;
+cursor: pointer;
+width: 100px;
+border-radius: 10px/6px;
+right: 300px;
+position: static;
+width: 250px;
+border-color: green;
+position: relative;
+right: 10px;
+    top: 190px;
+
       }
 
 .konspekt {
@@ -403,11 +451,12 @@ table {
   color: green;
   margin: 20px;
   padding: 20px;
-  width: 280px;
+  width: 250px;
   font-size: 25pt;
-  height: 300px;
+  height: 250px;
   right: 1260px;
   border-radius: 10px;
+    filter:  hue-rotate(100deg);
 
 
 
@@ -427,7 +476,7 @@ table {
   font-size: 11pt;
   padding: 20px;
   width: 250px;
-  height: 300px;
+  height: 250px;
   right: 950px;
   border-radius: 10px
   }
@@ -459,7 +508,7 @@ table {
   padding: 20px;
   width: 250px;
   font-size: 11pt;
-  height: 300px;
+  height: 250px;
   right: 350px;
   border-radius: 10px
      }
@@ -813,16 +862,17 @@ position: relative;
 
 .text {
   position: absolute;
-  display: block;
+  display: flex;
     color: green;
     font-size: 17px;
     border-color: white;
-    width: 230px;
+    width: 240px;
     height: 30px;
-    top: 170px;
+    top: -50px;
     border-color: green;
       border-radius: 5px;
-      left: 20px;
+      left: 0px;
+
 }
 
 #petals
