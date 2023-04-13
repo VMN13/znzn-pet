@@ -76,7 +76,7 @@ h3 {
 }
 
 p {
-color: grey;
+color: rgb(0 0 0 / 50%);
 font-size: 20px;
  font-weight: 700;
 }
@@ -92,6 +92,14 @@ header {
 outline: 2px ridge rgba(51,185,159,1);
 
       }
+
+
+#AlarmClockIcon-mask-14 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  left: 40px;
+}
 
 
 
@@ -117,7 +125,7 @@ outline: 2px ridge rgba(51,185,159,1);
   height: 400px;
   left: 310px;
   text-align: left;
-  margin-top: 850px;
+  margin-top: 900px;
   border-radius: 5px;
   outline: 1px solid #dbd0d0;
                 }
@@ -136,7 +144,7 @@ outline: 2px ridge rgba(51,185,159,1);
     width: 1210px;
     height: 100px;
     border-radius: 5px;
-    top: 1250px;
+    top: 1300px;
     right:-300px;
           }
 
@@ -234,7 +242,6 @@ form.example:after {
 .more{
   border-color: grey;
   color: grey;
-  padding: 14px 20px;
   cursor: pointer;
   width: 120px;
   border-radius: 10px/6px;
@@ -246,7 +253,6 @@ form.example:after {
 .dogd {
   border-color: grey;
   color: grey;
-  padding: 14px 20px;
   cursor: pointer;
   width: 80px;
   border-radius: 10px/6px;
@@ -258,7 +264,6 @@ form.example:after {
 .les {
   border-color: grey;
   color: grey;
-  padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
   width: 80px;
@@ -270,7 +275,6 @@ form.example:after {
 .hym {
   border-color: grey;
   color: grey;
-  padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
   width: 120px;
@@ -318,38 +322,42 @@ form.example:after {
       }
 
 .min {
-  border-color: green;
-  color: green;
-  padding: 20px 10px;
+  border-color: grey;
+  color: grey;
+  padding: 10px 20px 20px;
   cursor: pointer;
   width: 70px;
   height: 5px;
-  border-radius: 10px/6px;
+  border-radius: 5px/5px;
   right: 300px;
-  position: static;
+  position: relative;
+  right: -10px;
         }
 
   .min2 {
-  border-color: green;
-  color: green;
-  padding: 20px 10px;
+  border-color: grey;
+  color: grey;
+  padding: 10px 20px 20px;
   cursor: pointer;
   width: 70px;
   height: 5px;
-  border-radius: 10px/6px;
+  border-radius:  5px/5px;
   right: 300px;
   position: static;
           }
 
   .min3 {
-  border-color: green;
-  color: green;
-  padding: 20px 10px;
+  border-color: grey;
+  color: grey;
+  padding: 10px 20px 20px;
   cursor: pointer;
   width: 70px;
   height: 5px;
-  border-radius: 10px/6px;
+  border-radius: 5px/5px;
   right: 300px;
+  position: relative;
+right: 10px;
+}
         }
 
 .button8 {
@@ -553,7 +561,7 @@ table {
   background: #ffffff;
   height: 150px;
   width: 600px;
-  margin-top: 1300px;
+  margin-top: 1500px;
   border-radius: 10px/6px;
   right: 350px;
   text-align: left;
@@ -628,7 +636,7 @@ table {
   height: 100px;
   border-radius: 10px/6px;
   width: 2000px;
-margin-top: 1900px;
+margin-top: 2000px;
    font-size: 18px;
    text-indent: 16em;
       }
@@ -642,7 +650,7 @@ footer {
   text-align: center;
   height: 40px;
   width: 2000px;
-  margin-top: 2100px;
+  margin-top: 2200px;
   left: 10px;
   font-size: 15px;
       }
@@ -737,7 +745,7 @@ footer {
   background-repeat: no-repeat, repeat;
   background-position: right .20em top 100%, 0 0;
   background-size: .65em auto, 100%;
-    top: 900px;
+    top: 960px;
 position: relative;
         }
 
