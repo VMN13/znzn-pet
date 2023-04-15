@@ -77,6 +77,14 @@ top: 400px;
   z-index: 1;
 }
 
+#ne {
+  display: block;
+  position: absolute;
+  top: 320px;
+  right: 780px;
+  z-index: 1;
+}
+
 #s {
   display: block;
   position: absolute;
@@ -129,7 +137,8 @@ header {
   padding: 20px;
   margin-top: 10px;
   text-align: center;
-outline: 2px ridge rgba(51,185,159,1);
+outline: 1px ridge rgba(51,185,159,1);
+
 
       }
 
@@ -380,33 +389,12 @@ right: 10px;
   right: 300px;
   position: relative;
   right: -10px;
+  top: -50px;
         }
 
-  .min2 {
-  border-color: grey;
-  color: grey;
-  padding: 10px 20px 20px;
-  cursor: pointer;
-  width: 70px;
-  height: 5px;
-  border-radius:  5px/5px;
-  right: 300px;
-  position: static;
-          }
 
-  .min3 {
-  border-color: grey;
-  color: grey;
-  padding: 10px 20px 20px;
-  cursor: pointer;
-  width: 70px;
-  height: 5px;
-  border-radius: 5px/5px;
-  right: 300px;
-  position: relative;
-right: 10px;
-}
-        }
+
+
 
 .button8 {
   border-color: rgb(0, 0, 0);
@@ -554,6 +542,7 @@ table {
   border-radius: 10px/6px;
   left: 300px;
   text-align: left;
+filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
       }
 
 .brd2 {
@@ -583,6 +572,7 @@ table {
   left: 300px;
   text-align: left;
   top: 3000px;
+   filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
 
 }
 
@@ -614,6 +604,7 @@ table {
   border-radius: 10px/6px;
   right: 350px;
   text-align: left;
+   filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
       }
 
 .brd4 {
@@ -644,6 +635,7 @@ table {
   border-radius: 10px/6px;
   text-align: left;
   top:2970px;
+   filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
         }
 
 .brd5   {
@@ -672,6 +664,7 @@ table {
   border-radius: 10px/6px;
   right:350px;
   text-align: left;
+  filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
     }
 
 .brd6 {
