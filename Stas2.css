@@ -7,7 +7,9 @@ a {
   color: blue;
   display: inline-block;
  padding:10px;
+text-decoration-thickness: 4%;
 }
+
 
 
 h1, h5 {
@@ -31,6 +33,23 @@ h1, h5 {
     font-weight: 600;
 }
 
+#Clock {
+  display: block;
+  position: absolute;
+  top: 615px;
+  left: 270px;
+  z-index: 1;
+}
+
+#k {
+  display: block;
+  position: relative;
+  color: black;
+  text-align: center;
+   font-size: 40px;
+   left: 300px;
+   top: 2713px;
+}
 
 #search
 {
@@ -89,9 +108,52 @@ top: 400px;
   display: block;
   position: absolute;
   top: 30px;
-  right: 330px;
+   right: 160px;
   z-index: 1;
 }
+
+#m {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 130px;
+  z-index: 1;
+}
+
+#h {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 480px;
+  z-index: 1;
+}
+
+
+#clock {
+  display: block;
+  position: relative;
+  top: 30px;
+  right: 230px;
+  z-index: 1;
+}
+
+#atmo3 {
+  top: -20px;
+position: relative;
+left: -30px;
+
+}
+
+#e
+{
+  display: block;
+  position: relative;
+  top: 30px;
+  right: 230px;
+  z-index: 1;  font-size: 20px;
+}
+}
+
 
 #title {
   color: black;
@@ -109,6 +171,8 @@ top: 400px;
     top: 0px;
     position: absolute;
 }
+
+
 
 h2 {
   color: black;
@@ -180,7 +244,17 @@ outline: 1px ridge rgba(51,185,159,1);
                 }
 
 
-
+#title
+{
+  display: block;
+    position: absolute;
+    height: 10px;
+    left: 350px;
+    font-weight: 600;
+    color: black;
+    font-size: 80px;
+    top: 250px;
+}
 
 
 .e {
@@ -195,6 +269,7 @@ outline: 1px ridge rgba(51,185,159,1);
     border-radius: 5px;
     top: 1300px;
     right:-300px;
+
           }
 
 .Stasik2 {
@@ -234,9 +309,7 @@ form.example input[type=text] {
   margin-left: 300px;
   position: absolute;
     top: 500px;
-
         }
-
 
 
 
@@ -253,7 +326,12 @@ form.example input[type=text] {
   top: 590px;
   right: 280px;
   font-size: 20px;
+  transition: 0.5s;
               }
+
+.submit:hover {
+  background-color: #185818;
+}
 
 form.example:after {
   content: "";
@@ -288,7 +366,18 @@ form.example:after {
   cursor: pointer;
   margin-top:500px;
   position: relative;
-                    }
+  transition: 0.5s;
+
+                 }
+
+.vhod:hover {
+  background-color: rgb(140 197 153);
+}
+
+.stasik{
+  position: absolute;
+
+}
 
 .more{
   border-color: grey;
@@ -301,6 +390,9 @@ form.example:after {
   position: static;
 
             }
+.more:hover{
+  background-color: rgb(59 130 246 / 0.5);
+}
 
 .dogd {
   border-color: grey;
@@ -311,8 +403,11 @@ form.example:after {
     width: 120px;
   text-align: center;
   position: static;
-
         }
+
+.dogd:hover {
+  background-color: rgb(59 130 246 / 0.5);
+}
 
 .les {
   border-color: grey;
@@ -325,6 +420,12 @@ form.example:after {
   position: static;
 }
 
+.les:hover {
+  background-color: rgb(140 197 153);
+}
+
+
+
 .hym {
   border-color: grey;
   color: grey;
@@ -334,6 +435,10 @@ form.example:after {
   border-radius: 10px/6px;
   right: 300px;
   position: static;
+      }
+
+      .hym:hover {
+        background-color: rgb(59 130 246 / 0.5);
       }
 
 .podbrosit {
@@ -351,31 +456,44 @@ border-color: green;
 position: relative;
 right: 10px;
     top: 190px;
-
       }
 
+.podbrosit:hover {
+  background-color: rgb(140 197 153);
+}
+
 .konspekt {
-  border-color: grey;
+  border-color: green;
   color: green;
   padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
-  width: 100px;
+  width: 150px;
   border-radius: 10px/6px;
   right: 200px;
   position: absolute;
+  transition: 0.5s;
         }
 
+.konspekt:hover {
+background-color: rgb(140 197 153);
+}
+
 .nachat {
-  border-color: rgb(0, 0, 0);
+  border-color: green;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
-  width: 100px;
+  width: 150px;
   border-radius: 10px/6px;
   right: 300px;
-  position: static;
+  position: absolute;
+  transition: 0.5s;
+      }
+
+      .nachat:hover {
+        background-color: rgb(140 197 153);
       }
 
 .min {
@@ -390,10 +508,27 @@ right: 10px;
   position: relative;
   right: -10px;
   top: -50px;
+  transition: 1s;
         }
 
 
 
+.min:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+    }
+
+.min:hover,
+.min:focus {
+  color: rgb(140 197 153);
+  border-color: currentColor;
+  background-color: white;
+    }
+
+  /* сброс браузерных стилей для фокуса */
+  .min::-moz-focus-inner {
+  border: none;
+    }
 
 
 .button8 {
@@ -431,8 +566,8 @@ table {
 .city {
   display: block;
   background: url(Stasik1.png) ,
-    #fff url(stas1.jpg) repeat-y 100% 0;
-    background-size: 300px;
+  #fff url(stas1.jpg) repeat-y 100% 0;
+  background-size: 300px;
   position: absolute;
   outline: 1px solid #dbd0d0;
   top: 800px;
@@ -445,12 +580,7 @@ table {
   right: 1260px;
   border-radius: 10px;
     filter:  hue-rotate(100deg);
-
-
-
           }
-
-
 
 .city2 {
   display: block;
@@ -575,8 +705,6 @@ filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
    filter: drop-shadow(0 0 3px rgba(100,159,0,0.5));
 
 }
-
-
 
 .brd3 {
   font-size: 16px;
@@ -708,6 +836,7 @@ footer {
   border-radius: 10px/6px;
   top: 3450px;
   margin-left:-1010px;
+  font-weight: 600;
       }
 
 .ZNZN2 {
@@ -723,6 +852,7 @@ footer {
   left: 300px;
   border: none;
   font-style: oblique;
+  font-weight: 600;
         }
 
 .ZNZN3 {
@@ -738,6 +868,7 @@ footer {
   right: 350px;
   border: none;
   font-style: oblique;
+  font-weight: 600;
       }
 
 .ZNZN4 {
@@ -753,6 +884,7 @@ footer {
   left: 20px;
   border: none;
   font-style: oblique;
+  font-weight: 600;
 }
 
 .clock {
